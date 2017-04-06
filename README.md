@@ -4,9 +4,7 @@ A collection of libraries for graphics and audio programming in [Lua](https://ww
 mostly bindings to popular C/C++ libraries.
 
 They currently run 
-[on GNU/Linux](#installing-on-ubuntu) and 
-[on Windows with MSYS2/MinGW-w64](#installing-on-windows)
-(except for LuaJack, which runs on on GNU/Linux only).
+[on GNU/Linux](#installing-on-ubuntu) (and a few of them also [on Windows with MSYS2/MinGW-w64](#installing-on-windows)).
 
 The libraries do not depend on each other, so they can be selectively installed.
 
@@ -17,6 +15,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 #### Rendering
 * [MoonGL](https://github.com/stetre/moongl) - bindings to OpenGL 3.x
 ([manual](https://stetre.github.io/moongl/doc/index.html)).
+* [MoonVulkan](https://github.com/stetre/moonvulkan) (GNU/Linux only) - bindings to Vulkan ([manual](https://stetre.github.io/moonvulkan/doc/index.html)).
 
 #### Windowing and GUI
 
