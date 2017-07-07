@@ -35,8 +35,12 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 ([manual](https://stetre.github.io/moonassimp/doc/index.html)). 
 * [MoonSOIL](https://github.com/stetre/moonsoil) - bindings to the Simple OpenGL Image Library
 ([manual](https://stetre.github.io/moonsoil/doc/index.html)).
+
+#### Text rendering
 * [MoonFreeType](https://github.com/stetre/moonfreetype) - bindings to the FreeType font rendering library
 ([manual](https://stetre.github.io/moonfreetype/doc/index.html)).
+* [MoonFonts](https://github.com/stetre/moonfonts) - bitmap fonts, bindings to STB fonts
+([manual](https://stetre.github.io/moonfonts/doc/index.html)).
 
 #### Audio
 * [LuaJACK](https://github.com/stetre/luajack) (GNU/Linux only) - bindings to the JACK Audio Connection Kit
