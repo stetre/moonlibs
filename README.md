@@ -13,37 +13,39 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 [![Lua logo](./powered-by-lua.gif)](https://www.lua.org/)
 
 #### Rendering
-* [MoonGL](https://github.com/stetre/moongl) - bindings to OpenGL 3.x
+* [**MoonGL**](https://github.com/stetre/moongl) - bindings to **OpenGL 3.x - 4.x**
 ([manual](https://stetre.github.io/moongl/doc/index.html)).
-* [MoonVulkan](https://github.com/stetre/moonvulkan) (GNU/Linux only) - bindings to Vulkan ([manual](https://stetre.github.io/moonvulkan/doc/index.html)).
+* [**MoonVulkan**](https://github.com/stetre/moonvulkan) - bindings to **Vulkan** ([manual](https://stetre.github.io/moonvulkan/doc/index.html)).
 
 #### Windowing and GUI
 
-* [MoonFLTK](https://github.com/stetre/moonfltk) - bindings to the Fast Light Toolkit
+* [**MoonFLTK**](https://github.com/stetre/moonfltk) - bindings to the **Fast Light Toolkit (FLTK)**
 ([manual](https://stetre.github.io/moonfltk/doc/index.html)).
-* [MoonGLFW](https://github.com/stetre/moonglfw) - bindings to GLFW
+* [**MoonGLFW**](https://github.com/stetre/moonglfw) - bindings to **GLFW**
 ([manual](https://stetre.github.io/moonglfw/doc/index.html)).
-* [MoonGLUT](https://github.com/stetre/moonglut) - bindings to FreeGLUT
+* [**MoonGLUT**](https://github.com/stetre/moonglut) - bindings to **FreeGLUT**
 ([manual](https://stetre.github.io/moonglut/doc/index.html)).
 
 #### Math
-* [MoonGLMATH](https://github.com/stetre/moonglmath) - graphics math library for MoonGL
+* [**MoonGLMATH**](https://github.com/stetre/moonglmath) - **graphics math library** for MoonGL
 ([manual](https://stetre.github.io/moonglmath/doc/index.html)).
 
 #### Asset loading
-* [MoonAssimp](https://github.com/stetre/moonassimp) - bindings to the Open Asset Import Library
+* [**MoonAssimp**](https://github.com/stetre/moonassimp) - bindings to the **Open Asset Import Library (Assimp)**
 ([manual](https://stetre.github.io/moonassimp/doc/index.html)). 
-* [MoonSOIL](https://github.com/stetre/moonsoil) - bindings to the Simple OpenGL Image Library
+* [**MoonSOIL**](https://github.com/stetre/moonsoil) - bindings to the **Simple OpenGL Image Library (SOIL)**
 ([manual](https://stetre.github.io/moonsoil/doc/index.html)).
 
 #### Text rendering
-* [MoonFreeType](https://github.com/stetre/moonfreetype) - bindings to the FreeType font rendering library
+* [**MoonFreeType**](https://github.com/stetre/moonfreetype) - bindings to the **FreeType** font rendering library
 ([manual](https://stetre.github.io/moonfreetype/doc/index.html)).
-* [MoonFonts](https://github.com/stetre/moonfonts) - bitmap fonts, bindings to STB fonts
+* [**MoonFonts**](https://github.com/stetre/moonfonts) - bitmap fonts, bindings to **STB fonts**
 ([manual](https://stetre.github.io/moonfonts/doc/index.html)).
 
 #### Audio
-* [LuaJACK](https://github.com/stetre/luajack) (GNU/Linux only) - bindings to the JACK Audio Connection Kit
+* [**MoonSndFile**](https://github.com/stetre/moonsndfile) - bindings to **libsndfile**
+([manual](https://stetre.github.io/moonsndfile/doc/index.html)).
+* [**LuaJACK**](https://github.com/stetre/luajack) - bindings to the **JACK Audio Connection Kit**
 ([manual](https://stetre.github.io/luajack/doc/index.html)).
 
 ---
@@ -74,6 +76,7 @@ $ sudo apt-get install freeglut3-dev      # needed only by MoonGLUT
 $ sudo apt-get install libglew-dev        # needed only by MoonGL
 $ sudo apt-get install libassimp-dev      # needed only by MoonAssimp
 $ sudo apt-get install libfreetype6-dev   # needed only by MoonFreeType
+$ sudo apt-get install libsndfile1-dev    # needed only by MoonSndFile
 $ sudo apt-get install libjack-jackd2-dev # needed only by LuaJack
 ```
 
