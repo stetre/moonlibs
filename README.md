@@ -53,13 +53,13 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 #### Installing on Ubuntu
 
 The following instructions show how to install the libraries on Ubuntu
-(to install on a Linux distribution other than Ubuntu, replacing apt-get with the package manager it uses
+(to install on a Linux distribution other than Ubuntu, replacing apt with the package manager it uses
 should work).
 
 Install the [latest version](https://www.lua.org/download.html) of Lua:
 
 ```sh
-$ sudo apt-get install libreadline-dev
+$ sudo apt install libreadline-dev
 $ wget https://www.lua.org/ftp/lua-5.3.3.tar.gz
 $ tar -zxpvf lua-5.3.3.tar.gz
 $ cd lua-5.3.3
@@ -70,14 +70,14 @@ lua-5.3.3$ sudo make install
 Install the dependencies:
 
 ```sh
-$ sudo apt-get install libfltk1.3-dev     # needed only by MoonFLTK
-$ sudo apt-get install libglfw3-dev       # needed only by MoonGLFW
-$ sudo apt-get install freeglut3-dev      # needed only by MoonGLUT
-$ sudo apt-get install libglew-dev        # needed only by MoonGL
-$ sudo apt-get install libassimp-dev      # needed only by MoonAssimp
-$ sudo apt-get install libfreetype6-dev   # needed only by MoonFreeType
-$ sudo apt-get install libsndfile1-dev    # needed only by MoonSndFile
-$ sudo apt-get install libjack-jackd2-dev # needed only by LuaJack
+$ sudo apt install libfltk1.3-dev     # needed only by MoonFLTK
+$ sudo apt install libglfw3-dev       # needed only by MoonGLFW
+$ sudo apt install freeglut3-dev      # needed only by MoonGLUT
+$ sudo apt install libglew-dev        # needed only by MoonGL
+$ sudo apt install libassimp-dev      # needed only by MoonAssimp
+$ sudo apt install libfreetype6-dev   # needed only by MoonFreeType
+$ sudo apt install libsndfile1-dev    # needed only by MoonSndFile
+$ sudo apt install libjack-jackd2-dev # needed only by LuaJack
 ```
 
 Install a MoonXXX library (MoonXXX is one of MoonGL, MoonGLFW, etc):
