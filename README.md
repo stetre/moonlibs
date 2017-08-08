@@ -56,7 +56,7 @@ The following instructions show how to install the libraries on Ubuntu
 (to install on a Linux distribution other than Ubuntu, replacing apt-get with the package manager it uses
 should work).
 
-Install the [latest version](https:www.lua.org/download.html) of Lua:
+Install the [latest version](https://www.lua.org/download.html) of Lua:
 
 ```sh
 $ sudo apt-get install libreadline-dev
