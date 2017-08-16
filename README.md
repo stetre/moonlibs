@@ -4,7 +4,7 @@ A collection of libraries for graphics and audio programming in [Lua](https://ww
 mostly bindings to popular C/C++ libraries.
 
 They currently run 
-[on GNU/Linux](#installing-on-ubuntu) and (a few of them) [on Windows](#installing-on-windows) with MSYS2/MinGW-w64.
+[on GNU/Linux](#installing-on-ubuntu) and (most of them) [on Windows](#installing-on-windows) with MSYS2/MinGW-w64.
 
 The libraries do not depend on each other, so they can be selectively installed.
 
@@ -45,6 +45,8 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 #### Audio
 * [**MoonSndFile**](https://github.com/stetre/moonsndfile) - bindings to **libsndfile**
 ([manual](https://stetre.github.io/moonsndfile/doc/index.html)).
+* [**MoonAL**](https://github.com/stetre/moonal) - bindings to **OpenAL**
+([manual](https://stetre.github.io/moonal/doc/index.html)).
 * [**LuaJACK**](https://github.com/stetre/luajack) - bindings to the **JACK Audio Connection Kit**
 ([manual](https://stetre.github.io/luajack/doc/index.html)).
 
@@ -121,6 +123,7 @@ $ sudo apt install libglew-dev        # needed only by MoonGL
 $ sudo apt install libassimp-dev      # needed only by MoonAssimp
 $ sudo apt install libfreetype6-dev   # needed only by MoonFreeType
 $ sudo apt install libsndfile1-dev    # needed only by MoonSndFile
+$ sudo apt install libopenal-dev      # needed only by MoonAL
 $ sudo apt install libjack-jackd2-dev # needed only by LuaJack
 ```
 ##### Running the examples
@@ -204,6 +207,8 @@ $ pacman -S ${MINGW_PACKAGE_PREFIX}-freeglut    # needed only by MoonGLUT
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-glew        # needed only by MoonGL
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-assimp      # needed only by MoonAssimp
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-freetype    # needed only by MoonFreeType
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-sndfile     # needed only by MoonSndFile
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-openal      # needed only by MoonAL
 ```
 
 ##### Running the examples
