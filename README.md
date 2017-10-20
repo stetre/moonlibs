@@ -33,6 +33,8 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 #### Asset loading
 * [**MoonAssimp**](https://github.com/stetre/moonassimp) - bindings to the **Open Asset Import Library (Assimp)**
 ([manual](https://stetre.github.io/moonassimp/doc/index.html)). 
+* [**MoonImage**](https://github.com/stetre/moonimage) - STB-based **image loading library**
+([manual](https://stetre.github.io/moonimage/doc/index.html)).
 * [**MoonSOIL**](https://github.com/stetre/moonsoil) - bindings to the **Simple OpenGL Image Library (SOIL)**
 ([manual](https://stetre.github.io/moonsoil/doc/index.html)).
 
