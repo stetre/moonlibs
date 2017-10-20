@@ -12,9 +12,11 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 
 [![Lua logo](./powered-by-lua.gif)](https://www.lua.org/)
 
-#### Rendering
+#### Rendering and computing
 * [**MoonGL**](https://github.com/stetre/moongl) - bindings to **OpenGL 3.x - 4.x**
 ([manual](https://stetre.github.io/moongl/doc/index.html)).
+* [**MoonCL**](https://github.com/stetre/mooncl) - bindings to **OpenCL**
+([manual](https://stetre.github.io/mooncl/doc/index.html)).
 * [**MoonVulkan**](https://github.com/stetre/moonvulkan) - bindings to **Vulkan** ([manual](https://stetre.github.io/moonvulkan/doc/index.html)).
 
 #### Windowing and GUI
@@ -30,13 +32,15 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 * [**MoonGLMATH**](https://github.com/stetre/moonglmath) - **graphics math library** for MoonGL
 ([manual](https://stetre.github.io/moonglmath/doc/index.html)).
 
-#### Asset loading
-* [**MoonAssimp**](https://github.com/stetre/moonassimp) - bindings to the **Open Asset Import Library (Assimp)**
-([manual](https://stetre.github.io/moonassimp/doc/index.html)). 
+#### Image loading
 * [**MoonImage**](https://github.com/stetre/moonimage) - STB-based **image loading library**
 ([manual](https://stetre.github.io/moonimage/doc/index.html)).
 * [**MoonSOIL**](https://github.com/stetre/moonsoil) - bindings to the **Simple OpenGL Image Library (SOIL)**
 ([manual](https://stetre.github.io/moonsoil/doc/index.html)).
+
+#### Model loading
+* [**MoonAssimp**](https://github.com/stetre/moonassimp) - bindings to the **Open Asset Import Library (Assimp)**
+([manual](https://stetre.github.io/moonassimp/doc/index.html)).
 
 #### Text rendering
 * [**MoonFreeType**](https://github.com/stetre/moonfreetype) - bindings to the **FreeType** font rendering library
