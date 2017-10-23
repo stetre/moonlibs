@@ -1,7 +1,6 @@
 ## MoonLibs - Graphics and Audio Lua Libraries
 
-A collection of libraries for graphics and audio programming in [Lua](https://www.lua.org) (>= 5.3),
-mostly bindings to popular C/C++ libraries.
+A collection of libraries for graphics, audio, and heterogeneous programming in [Lua](https://www.lua.org) (>= 5.3), mostly bindings to popular C/C++ libraries.
 
 They currently run 
 [on GNU/Linux](#installing-on-ubuntu) and (most of them) [on Windows](#installing-on-windows) with MSYS2/MinGW-w64.
@@ -12,58 +11,61 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 
 [![Lua logo](./powered-by-lua.gif)](https://www.lua.org/)
 
+----
+
+#### Reference Manuals
+
+| Rendering | Windowing | Math | Image | Model | Text | Audio |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+[MoonGL](https://stetre.github.io/moongl/doc/index.html) |  [MoonGLFW](https://stetre.github.io/moonglfw/doc/index.html) | [MoonGLMATH](https://stetre.github.io/moonglmath/doc/index.html) | [MoonImage](https://stetre.github.io/moonimage/doc/index.html) | [MoonAssimp](https://stetre.github.io/moonassimp/doc/index.html) | [MoonFreeType](https://stetre.github.io/moonfreetype/doc/index.html) | [MoonSndFile](https://stetre.github.io/moonsndfile/doc/index.html) |
+[MoonCL](https://stetre.github.io/mooncl/doc/index.html) | [_MoonGLUT_](https://stetre.github.io/moonglut/doc/index.html) | | [_MoonSOIL_](https://stetre.github.io/moonsoil/doc/index.html) | | [MoonFonts](https://stetre.github.io/moonfonts/doc/index.html) | [MoonAL](https://stetre.github.io/moonal/doc/index.html) |
+[MoonVulkan](https://stetre.github.io/moonvulkan/doc/index.html) | [MoonFLTK](https://stetre.github.io/moonfltk/doc/index.html) | | | | | [LuaJACK](https://stetre.github.io/luajack/doc/index.html) |
+
+----
+
+### Libraries
+
 #### Rendering and computing
-* [**MoonGL**](https://github.com/stetre/moongl) - bindings to **OpenGL 3.x - 4.x**
-([manual](https://stetre.github.io/moongl/doc/index.html)).
-* [**MoonCL**](https://github.com/stetre/mooncl) - bindings to **OpenCL**
-([manual](https://stetre.github.io/mooncl/doc/index.html)).
-* [**MoonVulkan**](https://github.com/stetre/moonvulkan) - bindings to **Vulkan** ([manual](https://stetre.github.io/moonvulkan/doc/index.html)).
 
-#### Windowing and GUI
+* [**MoonGL**](https://github.com/stetre/moongl) - bindings to **OpenGL 3.x - 4.x**.
+* [**MoonCL**](https://github.com/stetre/mooncl) - bindings to **OpenCL**.
+* [**MoonVulkan**](https://github.com/stetre/moonvulkan) - bindings to **Vulkan**.
 
-* [**MoonFLTK**](https://github.com/stetre/moonfltk) - bindings to the **Fast Light Toolkit (FLTK)**
-([manual](https://stetre.github.io/moonfltk/doc/index.html)).
-* [**MoonGLFW**](https://github.com/stetre/moonglfw) - bindings to **GLFW**
-([manual](https://stetre.github.io/moonglfw/doc/index.html)).
-* [**MoonGLUT**](https://github.com/stetre/moonglut) - bindings to **FreeGLUT**
-([manual](https://stetre.github.io/moonglut/doc/index.html)).
+#### Windowing, input handling, GUI
+
+* [**MoonFLTK**](https://github.com/stetre/moonfltk) - bindings to the **Fast Light Toolkit (FLTK)**.
+* [**MoonGLFW**](https://github.com/stetre/moonglfw) - bindings to **GLFW**.
+* _[**MoonGLUT**](https://github.com/stetre/moonglut) - bindings to **FreeGLUT** (deprecated)_.
 
 #### Math
-* [**MoonGLMATH**](https://github.com/stetre/moonglmath) - **graphics math library** for MoonGL
-([manual](https://stetre.github.io/moonglmath/doc/index.html)).
+
+* [**MoonGLMATH**](https://github.com/stetre/moonglmath) - **graphics math library** for MoonGL and MoonVulkan.
 
 #### Image loading
-* [**MoonImage**](https://github.com/stetre/moonimage) - STB-based **image loading library**
-([manual](https://stetre.github.io/moonimage/doc/index.html)).
-* [**MoonSOIL**](https://github.com/stetre/moonsoil) - bindings to the **Simple OpenGL Image Library (SOIL)**
-([manual](https://stetre.github.io/moonsoil/doc/index.html)).
+
+* [**MoonImage**](https://github.com/stetre/moonimage) - **STB image** based image loading library.
+* _[**MoonSOIL**](https://github.com/stetre/moonsoil) - bindings to the **Simple OpenGL Image Library** (deprecated)_.
 
 #### Model loading
-* [**MoonAssimp**](https://github.com/stetre/moonassimp) - bindings to the **Open Asset Import Library (Assimp)**
-([manual](https://stetre.github.io/moonassimp/doc/index.html)).
+* [**MoonAssimp**](https://github.com/stetre/moonassimp) - bindings to the **Open Asset Import Library (Assimp)**.
 
 #### Text rendering
-* [**MoonFreeType**](https://github.com/stetre/moonfreetype) - bindings to the **FreeType** font rendering library
-([manual](https://stetre.github.io/moonfreetype/doc/index.html)).
-* [**MoonFonts**](https://github.com/stetre/moonfonts) - bitmap fonts, bindings to **STB fonts**
-([manual](https://stetre.github.io/moonfonts/doc/index.html)).
+
+* [**MoonFreeType**](https://github.com/stetre/moonfreetype) - bindings to the **FreeType** font rendering library.
+* [**MoonFonts**](https://github.com/stetre/moonfonts) - bitmap fonts, bindings to **STB fonts**.
 
 #### Audio
-* [**MoonSndFile**](https://github.com/stetre/moonsndfile) - bindings to **libsndfile**
-([manual](https://stetre.github.io/moonsndfile/doc/index.html)).
-* [**MoonAL**](https://github.com/stetre/moonal) - bindings to **OpenAL**
-([manual](https://stetre.github.io/moonal/doc/index.html)).
-* [**LuaJACK**](https://github.com/stetre/luajack) - bindings to the **JACK Audio Connection Kit**
-([manual](https://stetre.github.io/luajack/doc/index.html)).
+* [**MoonSndFile**](https://github.com/stetre/moonsndfile) - bindings to **libsndfile**.
+* [**MoonAL**](https://github.com/stetre/moonal) - bindings to **OpenAL**.
+* [**LuaJACK**](https://github.com/stetre/luajack) - bindings to the **JACK Audio Connection Kit**.
 
 ---
 
-#### Installation instructions
+### Installation instructions
 
 * [Installing on Ubuntu](#installing-on-ubuntu).
 * [Installing on Windows](#installing-on-windows).
 
----
 
 #### Installing on Ubuntu
 
@@ -144,7 +146,6 @@ $ cd /home/ste/moonfltk/examples/fltk
 fltk$ lua valuators.lua
 ```
 
----
 
 #### Installing on Windows
 
