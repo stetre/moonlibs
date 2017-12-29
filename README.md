@@ -214,7 +214,7 @@ $ pacman -S ${MINGW_PACKAGE_PREFIX}-freeglut    # needed only by MoonGLUT
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-glew        # needed only by MoonGL
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-assimp      # needed only by MoonAssimp
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-freetype    # needed only by MoonFreeType
-$ pacman -S ${MINGW_PACKAGE_PREFIX}-sndfile     # needed only by MoonSndFile
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-libsndfile  # needed only by MoonSndFile
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-openal      # needed only by MoonAL
 ```
 
