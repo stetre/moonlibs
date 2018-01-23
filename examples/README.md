@@ -6,6 +6,7 @@ libraries from the [MoonLibs](https://github.com/stetre/moonlibs) collection to
 perform basic tasks (please keep in mind that the examples do not aim to show
 the *best* way to perform those tasks, however).
 
+* [**joysticks**](#joysticks): get input from joysticks.
 * [**shapes**](#shapes): render simple 2D shapes.
 * [**sounds**](#sounds): play sound samples.
 * [**sprites**](#sprites): render 2D sprites.
@@ -13,6 +14,11 @@ the *best* way to perform those tasks, however).
 * [**timer**](#text): a simple frame timer.
 
 ----
+
+## joysticks
+
+This example shows how to detect and use joysticks and gamepads, using
+[MoonGLFW](https://github.com/stetre/moonglfw) to implement a callback interface.
 
 ## shapes
 
