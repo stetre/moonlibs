@@ -10,6 +10,7 @@ the *best* way to perform those tasks, however).
 * [**shapes**](#shapes): render simple 2D shapes.
 * [**sounds**](#sounds): play sound samples.
 * [**sprites**](#sprites): render 2D sprites.
+* [**spritesheets**](#sprites): create and use 2D spritesheets.
 * [**text**](#text): render text.
 * [**timer**](#text): a simple frame timer.
 
@@ -48,6 +49,11 @@ This example shows how one can render 2D sprites using
 [MoonImage](https://github.com/stetre/moonimage) to load the textures from file.
 
 The sprite renderer is based on the [tutorial](https://learnopengl.com/#!In-Practice/2D-Game/Rendering-Sprites) by Joey de Vries. The textures used in the example are also from [learnopengl.com](https://learnopengl.com) and are covered by the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+## spritesheets
+
+This example enhances the [sprites](#sprites) example, showing how to create a spritesheet
+from individual sprites, and how to render individual sprites from it.
 
 ## text
 
