@@ -6,6 +6,7 @@ libraries from the [MoonLibs](https://github.com/stetre/moonlibs) collection to
 perform basic tasks (please keep in mind that the examples do not aim to show
 the *best* way to perform those tasks, however).
 
+* [**calculator**](#calculator): graphics shell calculator.
 * [**joysticks**](#joysticks): get input from joysticks.
 * [**shapes**](#shapes): render simple 2D shapes.
 * [**sounds**](#sounds): play sound samples.
@@ -15,6 +16,12 @@ the *best* way to perform those tasks, however).
 * [**timer**](#text): a simple frame timer.
 
 ----
+
+## calculator
+
+This example shows how to turn the standard Lua interpreter into a shell calculator
+enhanced with graphics math functions, using
+[MoonGLMATH](https://github.com/stetre/moonglmath).
 
 ## joysticks
 
