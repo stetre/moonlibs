@@ -17,18 +17,18 @@ the *best* way to perform those tasks, however).
 
 ----
 
-## calculator
+## [calculator](./calculator)
 
 This example shows how to turn the standard Lua interpreter into a shell calculator
 enhanced with graphics math functions, using
 [MoonGLMATH](https://github.com/stetre/moonglmath).
 
-## joysticks
+## [joysticks](./joysticks)
 
 This example shows how to detect and use joysticks and gamepads, using
 [MoonGLFW](https://github.com/stetre/moonglfw) to implement a callback interface.
 
-## shapes
+## [shapes](./shapes)
 
 This example shows how one may render simple 2D shapes, such as points, lines, rectangles, and circles,
 using 
@@ -36,7 +36,7 @@ using
 [MoonGLFW](https://github.com/stetre/moonglfw), and
 [MoonGLMATH](https://github.com/stetre/moonglmath).
 
-## sounds
+## [sounds](./sounds)
 
 This example shows how to load sound samples from file using
 [MoonSndFile](https://github.com/stetre/moonsndfile), and how to play them with
@@ -47,7 +47,7 @@ The sound samples used in the example are taken from the
 ([CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) licensed), by Little Robot Sound Factory.
 
 
-## sprites
+## [sprites](./sprites)
 
 This example shows how one can render 2D sprites using 
 [MoonGL](https://github.com/stetre/moongl),
@@ -57,12 +57,12 @@ This example shows how one can render 2D sprites using
 
 The sprite renderer is based on the [tutorial](https://learnopengl.com/#!In-Practice/2D-Game/Rendering-Sprites) by Joey de Vries. The textures used in the example are also from [learnopengl.com](https://learnopengl.com) and are covered by the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-## spritesheets
+## [spritesheets](./spritesheets)
 
 This example enhances the [sprites](#sprites) example, showing how to create a spritesheet
 from individual sprites, and how to render individual sprites from it.
 
-## text
+## [text](./text)
 
 This example shows how one can render text using 
 [MoonGL](https://github.com/stetre/moongl),
@@ -76,7 +76,7 @@ by Joey de Vries, from his awesome [learnopengl.com](https://learnopengl.com) bo
 The font used in this example is the
 [Nobile Font Free](https://www.fontsquirrel.com/fonts/Nobile) ([SIL Open Font License v1.10](https://www.fontsquirrel.com/license/Nobile) licensed), by Vernon Adams.
 
-## timer
+## [timer](./timer)
 
 This example implements a simple but useful frame timer, using 
 [MoonGLFW](https://github.com/stetre/moonglfw).
