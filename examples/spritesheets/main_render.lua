@@ -34,9 +34,7 @@ glfw.set_key_callback(window, function(window, key, scancode, action)
 end)
 
 glfw.set_window_size_callback(window, function(window, width, height)
-   W, H = width, height
-   spritesheet.resize(width, height)
-   gl.viewport(0, 0, width, height)
+   Resize(window, width, height)
 end)
 
 local deltaTime, lastFrame = 0.0, 0.0
