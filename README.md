@@ -18,8 +18,9 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 | Rendering | Windowing | Math | Image | Model | Text | Audio |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 [MoonGL](https://stetre.github.io/moongl/doc/index.html) |  [MoonGLFW](https://stetre.github.io/moonglfw/doc/index.html) | [MoonGLMATH](https://stetre.github.io/moonglmath/doc/index.html) | [MoonImage](https://stetre.github.io/moonimage/doc/index.html) | [MoonAssimp](https://stetre.github.io/moonassimp/doc/index.html) | [MoonFreeType](https://stetre.github.io/moonfreetype/doc/index.html) | [MoonSndFile](https://stetre.github.io/moonsndfile/doc/index.html) |
-[MoonCL](https://stetre.github.io/mooncl/doc/index.html) | [_MoonGLUT_](https://stetre.github.io/moonglut/doc/index.html) | | [_MoonSOIL_](https://stetre.github.io/moonsoil/doc/index.html) | | [MoonFonts](https://stetre.github.io/moonfonts/doc/index.html) | [MoonAL](https://stetre.github.io/moonal/doc/index.html) |
+[MoonCL](https://stetre.github.io/mooncl/doc/index.html) | [MoonNuklear](https://stetre.github.io/moonnuklear/doc/index.html) | | [(_MoonSOIL_)](https://stetre.github.io/moonsoil/doc/index.html) | | [MoonFonts](https://stetre.github.io/moonfonts/doc/index.html) | [MoonAL](https://stetre.github.io/moonal/doc/index.html) |
 [MoonVulkan](https://stetre.github.io/moonvulkan/doc/index.html) | [MoonFLTK](https://stetre.github.io/moonfltk/doc/index.html) | | | | | [LuaJACK](https://stetre.github.io/luajack/doc/index.html) |
+| | [(_MoonGLUT_)](https://stetre.github.io/moonglut/doc/index.html) | | | | | |
 
 ----
 
@@ -46,6 +47,7 @@ with links to their repositories where the code and more details can be found.
 * **Windowing, input handling, GUI:**
   * [**MoonGLFW**](https://github.com/stetre/moonglfw) - bindings to **GLFW**.
   * [**MoonFLTK**](https://github.com/stetre/moonfltk) - bindings to the **Fast Light Toolkit (FLTK)**.
+  * [**MoonNuklear**](https://github.com/stetre/moonnuklear) - bindings to **Nuklear**.
   * _[MoonGLUT](https://github.com/stetre/moonglut) (deprecated) - bindings to **FreeGLUT**_.
 * **Math:**
   * [**MoonGLMATH**](https://github.com/stetre/moonglmath) - **graphics math library** for MoonGL and MoonVulkan.
