@@ -11,58 +11,39 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 
 [![Lua logo](./powered-by-lua.gif)](https://www.lua.org/)
 
-----
+* **Rendering and computing:**
+  * [**MoonGL**](https://github.com/stetre/moongl) ([doc](https://stetre.github.io/moongl/doc/index.html)) - bindings to **OpenGL** (3.x - 4.x).
+  * [**MoonCL**](https://github.com/stetre/mooncl) ([doc](https://stetre.github.io/mooncl/doc/index.html)) - bindings to **OpenCL**.
+  * [**MoonVulkan**](https://github.com/stetre/moonvulkan) ([doc](https://stetre.github.io/moonvulkan/doc/index.html)) - bindings to **Vulkan**.
+* **Windowing, input handling, GUI:**
+  * [**MoonGLFW**](https://github.com/stetre/moonglfw) ([doc](https://stetre.github.io/moonglfw/doc/index.html)) - bindings to **GLFW**.
+  * [**MoonFLTK**](https://github.com/stetre/moonfltk) ([doc](https://stetre.github.io/moonfltk/doc/index.html)) - bindings to **FLTK** (Fast Light Toolkit).
+  * [**MoonNuklear**](https://github.com/stetre/moonnuklear) ([doc](https://stetre.github.io/moonnuklear/doc/index.html)) - bindings to **Nuklear**.
+  * _[MoonGLUT](https://github.com/stetre/moonglut) (discontinued) - bindings to FreeGLUT._
+* **Math:**
+  * [**MoonGLMATH**](https://github.com/stetre/moonglmath) ([doc](https://stetre.github.io/moonglmath/doc/index.html)) - **graphics math** library for MoonGL and MoonVulkan.
+* **Concurrency:**
+  * [**MoonAgents**](https://github.com/stetre/moonagents) ([doc](https://stetre.github.io/moonagents/doc/index.html)) - SDL-oriented **reactive state machines**.
+* **Image loading:**
+  * [**MoonImage**](https://github.com/stetre/moonimage) ([doc](https://stetre.github.io/moonimage/doc/index.html)) - **STB image** based image loading library.
+  * _[MoonSOIL](https://github.com/stetre/moonsoil) (discontinued) - bindings to the Simple OpenGL Image Library._
+* **Model loading:**
+  * [**MoonAssimp**](https://github.com/stetre/moonassimp) ([doc](https://stetre.github.io/moonassimp/doc/index.html)) - bindings to **Assimp** (Open Asset Import Library).
+* **Text rendering:**
+  * [**MoonFreeType**](https://github.com/stetre/moonfreetype) ([doc](https://stetre.github.io/moonfreetype/doc/index.html)) - bindings to **FreeType**.
+  * [**MoonFonts**](https://github.com/stetre/moonfonts) ([doc](https://stetre.github.io/moonfonts/doc/index.html)) - bitmap fonts, bindings to **STB fonts**.
+* **Audio:**
+  * [**MoonSndFile**](https://github.com/stetre/moonsndfile) ([doc](https://stetre.github.io/moonsndfile/doc/index.html)) - bindings to **libsndfile**.
+  * [**MoonAL**](https://github.com/stetre/moonal) ([doc](https://stetre.github.io/moonal/doc/index.html)) - bindings to **OpenAL**.
+  * [**LuaJACK**](https://github.com/stetre/luajack) ([doc](https://stetre.github.io/luajack/doc/index.html)) - bindings to **JACK** (JACK Audio Connection Kit).
 
-#### Reference Manuals
+---
 
-| Rendering | Windowing | Math | Image | Model | Text | Audio |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-[MoonGL](https://stetre.github.io/moongl/doc/index.html) |  [MoonGLFW](https://stetre.github.io/moonglfw/doc/index.html) | [MoonGLMATH](https://stetre.github.io/moonglmath/doc/index.html) | [MoonImage](https://stetre.github.io/moonimage/doc/index.html) | [MoonAssimp](https://stetre.github.io/moonassimp/doc/index.html) | [MoonFreeType](https://stetre.github.io/moonfreetype/doc/index.html) | [MoonSndFile](https://stetre.github.io/moonsndfile/doc/index.html) |
-[MoonCL](https://stetre.github.io/mooncl/doc/index.html) | [MoonNuklear](https://stetre.github.io/moonnuklear/doc/index.html) | | [(_MoonSOIL_)](https://stetre.github.io/moonsoil/doc/index.html) | | [MoonFonts](https://stetre.github.io/moonfonts/doc/index.html) | [MoonAL](https://stetre.github.io/moonal/doc/index.html) |
-[MoonVulkan](https://stetre.github.io/moonvulkan/doc/index.html) | [MoonFLTK](https://stetre.github.io/moonfltk/doc/index.html) | | | | | [LuaJACK](https://stetre.github.io/luajack/doc/index.html) |
-| | [(_MoonGLUT_)](https://stetre.github.io/moonglut/doc/index.html) | | | | | |
-
-----
-
-### Contents
-
-* [The collection](#the-collection)
 * [Installation instructions](#installation-instructions)
   * [Installing on GNU/Linux](#installing-on-gnulinux)
   * [Installing on Windows](#installing-on-windows)
 * [Dependencies](#dependencies)
 * [Examples](#examples)
-
----
-
-### The collection
-
-Below is the list of libraries currently contained in the MoonLibs collection,
-with links to their repositories where the code and more details can be found.
-
-* **Rendering and computing:**
-  * [**MoonGL**](https://github.com/stetre/moongl) - bindings to **OpenGL 3.x - 4.x**.
-  * [**MoonCL**](https://github.com/stetre/mooncl) - bindings to **OpenCL**.
-  * [**MoonVulkan**](https://github.com/stetre/moonvulkan) - bindings to **Vulkan**.
-* **Windowing, input handling, GUI:**
-  * [**MoonGLFW**](https://github.com/stetre/moonglfw) - bindings to **GLFW**.
-  * [**MoonFLTK**](https://github.com/stetre/moonfltk) - bindings to the **Fast Light Toolkit (FLTK)**.
-  * [**MoonNuklear**](https://github.com/stetre/moonnuklear) - bindings to **Nuklear**.
-  * _[MoonGLUT](https://github.com/stetre/moonglut) (deprecated) - bindings to **FreeGLUT**_.
-* **Math:**
-  * [**MoonGLMATH**](https://github.com/stetre/moonglmath) - **graphics math library** for MoonGL and MoonVulkan.
-* **Image loading:**
-  * [**MoonImage**](https://github.com/stetre/moonimage) - **STB image** based image loading library.
-  * _[MoonSOIL](https://github.com/stetre/moonsoil) (deprecated) - bindings to the **Simple OpenGL Image Library**_.
-* **Model loading:**
-  * [**MoonAssimp**](https://github.com/stetre/moonassimp) - bindings to the **Open Asset Import Library (Assimp)**.
-* **Text rendering:**
-  * [**MoonFreeType**](https://github.com/stetre/moonfreetype) - bindings to the **FreeType** font rendering library.
-  * [**MoonFonts**](https://github.com/stetre/moonfonts) - bitmap fonts, bindings to **STB fonts**.
-* **Audio:**
-  * [**MoonSndFile**](https://github.com/stetre/moonsndfile) - bindings to **libsndfile**.
-  * [**MoonAL**](https://github.com/stetre/moonal) - bindings to **OpenAL**.
-  * [**LuaJACK**](https://github.com/stetre/luajack) - bindings to the **JACK Audio Connection Kit**.
 
 ---
 
@@ -241,10 +222,10 @@ $ pacman -S ${MINGW_PACKAGE_PREFIX}-openal      # needed only by MoonAL
 
 ### Examples
 
-Each library comes with a few examples, which are located in the `example/` directory of the
-source package (or in its subdirectories).
+Each library comes with a few examples, which are located in the `examples/` directory of the
+source package.
 
-Other examples, typically using more than one library, can be found in the `example/` directory
+Other examples, typically using more than one library, can be found in the `examples/` directory
 of this repository.
 
 The examples are Lua scripts that can be executed with the standard Lua interpreter.
