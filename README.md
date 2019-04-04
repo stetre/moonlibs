@@ -11,7 +11,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 
 [![Lua logo](./powered-by-lua.gif)](https://www.lua.org/)
 
-* **Rendering and computing:**
+* **GPU rendering and computing:**
   * [**MoonGL**](https://github.com/stetre/moongl) ([doc](https://stetre.github.io/moongl/doc/index.html)) - bindings to **OpenGL** (3.x - 4.x).
   * [**MoonCL**](https://github.com/stetre/mooncl) ([doc](https://stetre.github.io/mooncl/doc/index.html)) - bindings to **OpenCL**.
   * [**MoonVulkan**](https://github.com/stetre/moonvulkan) ([doc](https://stetre.github.io/moonvulkan/doc/index.html)) - bindings to **Vulkan**.
@@ -22,8 +22,9 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
   * _[MoonGLUT](https://github.com/stetre/moonglut) (discontinued) - bindings to FreeGLUT._
 * **Math:**
   * [**MoonGLMATH**](https://github.com/stetre/moonglmath) ([doc](https://stetre.github.io/moonglmath/doc/index.html)) - **graphics math** library for MoonGL and MoonVulkan.
-* **Concurrency:**
+* **Concurrency, State Machines:**
   * [**MoonAgents**](https://github.com/stetre/moonagents) ([doc](https://stetre.github.io/moonagents/doc/index.html)) - SDL-oriented **reactive state machines**.
+  * [**MoonSC**](https://github.com/stetre/moonsc) ([doc](https://stetre.github.io/moonsc/doc/index.html)) - SCXML-based **Harel statecharts**.
 * **Image loading:**
   * [**MoonImage**](https://github.com/stetre/moonimage) ([doc](https://stetre.github.io/moonimage/doc/index.html)) - **STB image** based image loading library.
   * _[MoonSOIL](https://github.com/stetre/moonsoil) (discontinued) - bindings to the Simple OpenGL Image Library._
