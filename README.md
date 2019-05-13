@@ -4,6 +4,7 @@ A collection of libraries for graphics, audio, and heterogeneous programming in 
 
 They currently run 
 [on GNU/Linux](#installing-on-gnulinux) and (most of them) [on Windows](#installing-on-windows) with MSYS2/MinGW-w64.
+A few of them also run [on MacOS](#installing-on-macos), thanks to contributions from other developers.
 
 The libraries do not depend on each other, so they can be selectively installed.
 
@@ -43,6 +44,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 * [Installation instructions](#installation-instructions)
   * [Installing on GNU/Linux](#installing-on-gnulinux)
   * [Installing on Windows](#installing-on-windows)
+  * [Installing on MacOS](#installing-on-macos)
 * [Dependencies](#dependencies)
 * [Examples](#examples)
 
@@ -122,7 +124,6 @@ To uninstall the library:
 moonfltk$ sudo make uninstall
 ```
 
-
 ---
 
 #### Installing on Windows
@@ -184,6 +185,52 @@ moonfltk$ make uninstall
 ```
 ---
 
+#### Installing on MacOS
+
+The following instructions show how to install the libraries on MacOS.
+
+##### Install Homebrew
+
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+##### Install Lua
+
+```bash
+$ brew install lua@5.3
+$ brew install luarocks
+```
+
+##### Install a library
+
+The following instructions show how to install MoonFLTK, but the same procedure applies to any other any other library of the collection, provided it is supported on MacOS.
+
+First, install any [dependencies](#dependencies) needed by the library. MoonFLTK needs FLTK, which you can install by typing:
+
+```bash
+$ brew install fltk
+```
+
+Then clone the library (or, if you prefer, download the latest release tarball and decompress, it),
+enter its base directory, compile, and install:
+
+```bash
+$ git clone https://github.com/stetre/moonfltk
+$ cd moonfltk
+moonfltk$ make
+moonfltk$ sudo make install
+```
+
+(If MacOS says that _The Git command requires the command line developer tools_, click _Install_ and Agree to the License Agrement.)
+
+To uninstall the library:
+
+```bash
+moonfltk$ sudo make uninstall
+```
+
+---
+
 ### Dependencies
 
 The same procedures shown above for MoonFLTK apply to any other library of the collection,
@@ -218,6 +265,16 @@ $ pacman -S ${MINGW_PACKAGE_PREFIX}-freetype    # needed only by MoonFreeType
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-libsndfile  # needed only by MoonSndFile
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-openal      # needed only by MoonAL
 ```
+
+MacOS:
+
+```bash
+$ brew install fltk        # needed only by MoonFLTK
+$ brew install glfw        # needed only by MoonGLFW
+$ brew install glew        # needed only by MoonGL
+```
+
+
 
 ---
 
