@@ -52,7 +52,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 
 ### Installation instructions
 
-**TLDR** - Provided you have already installed the toolchain ([GNU/Linux](#installing-on-gnulinux), [Windows](#installing-on-windows)) and the needed [dependencies](#dependencies), to install a library of the collection
+**TLDR** - Provided you have already installed the toolchain ([GNU/Linux](#installing-on-gnulinux), [Windows](#installing-on-windows), [MacOS](#installing-on-macos)) and the needed [dependencies](#dependencies), to install a library of the collection
 all you have to do is clone it, enter its base directory, compile and install. E.g. for MoonFLTK:
 
 ```bash
