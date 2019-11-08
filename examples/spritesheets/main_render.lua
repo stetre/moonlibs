@@ -25,7 +25,8 @@ gl.init()
 spritesheet.init(glmath.mat4())
 Resize(window, W, H)
 
-mysheet = spritesheet.new("mysheet.png", 'rgba', require("mysheet"))
+local sprites = require("mysheet") -- @@ Lua 5.4 returns also the filename?
+mysheet = spritesheet.new("mysheet.png", 'rgba', sprites)
 
 glfw.set_key_callback(window, function(window, key, scancode, action)
    if key == 'escape' and action == 'press' then

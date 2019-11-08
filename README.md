@@ -68,6 +68,17 @@ To uninstall it:
 moonfltk$ make uninstall # or: $ sudo make uninstall
 ```
 
+Note that all libraries currently assume Lua 5.3.
+It is possible to compile/install/uninstall for a different Lua version using the LUAVER variable.
+For example, to compile and install for Lua 5.4:
+
+```bash
+moonfltk$ make LUAVER=5.4
+moonfltk$ make LUAVER=5.4 install # or: $ sudo make LUAVER=5.4 install
+```
+
+
+
 ---
 
 #### Installing on GNU/Linux
