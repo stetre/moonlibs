@@ -47,6 +47,9 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
   * [Installing on MacOS](#installing-on-macos)
 * [Dependencies](#dependencies)
 * [Examples](#examples)
+* [Tweaks](#tweaks)
+  * [Lua version](#lua-version)
+  * [Install location](#install-location)
 
 ---
 
@@ -67,17 +70,6 @@ To uninstall it:
 ```bash
 moonfltk$ make uninstall # or: $ sudo make uninstall
 ```
-
-Note that all libraries currently assume Lua 5.3.
-It is possible to compile/install/uninstall for a different Lua version using the LUAVER variable.
-For example, to compile and install for Lua 5.4:
-
-```bash
-moonfltk$ make LUAVER=5.4
-moonfltk$ make LUAVER=5.4 install # or: $ sudo make LUAVER=5.4 install
-```
-
-
 
 ---
 
@@ -242,6 +234,7 @@ moonfltk$ sudo make uninstall
 
 ---
 
+
 ### Dependencies
 
 The same procedures shown above for MoonFLTK apply to any other library of the collection,
@@ -325,4 +318,48 @@ To run the same example from a Windows command prompt:
 C:\> cd \msys32\home\ste\moonfltk\examples\fltk
 C:\msys32\home\ste\moonfltk\examples\fltk> lua valuators.lua
 ```
+
+---
+
+### Tweaks
+
+#### Lua version
+
+All libraries currently assume Lua 5.3.
+It is possible to compile/install/uninstall for a different Lua version using the `LUAVER` variable.
+For example, to compile and install for Lua 5.4:
+
+```bash
+moonfltk$ make LUAVER=5.4
+moonfltk$ make LUAVER=5.4 install # or: $ sudo make LUAVER=5.4 install
+```
+
+#### Install location
+
+By default, the libraries are installed under the `/usr/local/` directory hierarchy.
+This is a fairly standard install directory and it is recommended since the Lua interpreter
+usually has no problem in locating modules when installed here.
+
+It is possible to install the libraries in a different location by overriding the `PREFIX`
+variable (whose default value is `/usr/local`) and letting Lua know at run time where to find
+them, by adding the path `$PREFIX/share/lua/$LUAVER/?.lua` to `LUA_PATH` and the path
+`$PREFIX/lib/lua/$LUAVER/?.so` to `LUA_CPATH`.
+
+
+For example, to install MoonFLTK under `/tmp/myloc`:
+
+```bash
+moonfltk$ make
+moonfltk$ make PREFIX=/tmp/myloc install
+```
+
+(Note that this will create the directory tree structure, if not already existing.)
+
+Then set the Lua paths accordingly before running the applications, e.g.:
+
+```bash
+moonfltk$ LUA_PATH=/tmp/myloc/share/lua/5.3/?.lua
+moonfltk$ LUA_CPATH=/tmp/myloc/lib/lua/5.3/?.so
+moonfltk$ cd examples/fltk
+fltk$ lua valuators.lua
 
