@@ -10,7 +10,7 @@ local vec2, vec4 = glmath.vec2, glmath.vec4
 local W, H = 800, 600 -- Width and height of the screen
 local BGCOLOR = vec4(1,1,1,1)
 
-local function Resize(window, width, height)
+local function resize(window, width, height)
    W, H = width, height
    local projection = glmath.ortho(0, W, H, 0, -1, 1)
    sprite.set_projection(projection)
@@ -23,7 +23,7 @@ local window = glfw.create_window(W, H, "Rendering Sprites")
 glfw.make_context_current(window)
 gl.init()
 sprite.init(glmath.mat4())
-Resize(window, W, H)
+resize(window, W, H)
 
 face = sprite.from_image("awesomeface.png", 'rgba')
 block = sprite.from_image("block.png", 'rgb')
@@ -34,11 +34,7 @@ glfw.set_key_callback(window, function(window, key, scancode, action)
    end
 end)
 
-glfw.set_window_size_callback(window, function(window, width, height)
-   W, H = width, height
-   sprite.resize(width, height)
-   gl.viewport(0, 0, width, height)
-end)
+glfw.set_window_size_callback(window, resize)
 
 local deltaTime, lastFrame = 0.0, 0.0
 
