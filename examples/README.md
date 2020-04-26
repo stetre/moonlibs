@@ -15,6 +15,28 @@ the *best* way to perform those tasks, however).
 * [**text**](#text): render text.
 * [**timer**](#text): a simple frame timer.
 
+Other more complete and arguably more interesting examples are bundled with the individual
+libraries, in their `examples/` subdirectory. Among these:
+
+* A port of the examples from Joey de Vries' [**LearnOpenGL**](https://learnopengl.com),
+bundled with [MoonGL](https://github.com/stetre/moongl).
+* A port of the examples from David Wolff's book [**OpenGL 4 Shading Language Cookbook**](https://github.com/PacktPublishing/OpenGL-4-Shading-Language-Cookbook-Third-Edition), also
+bundled with [MoonGL](https://github.com/stetre/moongl).
+* A port of the examples from Alexander Overvoorde's [**Vulkan Tutorial**](https://vulkan-tutorial.com/),
+bundled with [MoonVulkan](https://github.com/stetre/moonvulkan).
+* A port of the solutions to the exercises from the [**Hands On Opencl**](http://handsonopencl.github.io/) course, 
+bundled with [MoonCL](https://github.com/stetre/mooncl).
+* A port of the demos that come with Scott Lembcke's [**Chipmunk2D**](http://chipmunk-physics.net/) physics engine,
+bundled with [MoonChipmunk](https://github.com/stetre/moonchipmunk).
+* A port of the demos that come with Mitcha Mettke's [**Nuklear**](https://github.com/Immediate-Mode-UI/nuklear) GUI toolkit,
+bundled with [MoonNuklear](https://github.com/stetre/moonnuklear).
+* A port of the demos that come with [**FLTK**](http://www.fltk.org/), 
+bundled with [MoonFLTK](https://github.com/stetre/moonfltk).
+
+
+
+
+
 ----
 
 ## [calculator](./calculator)
