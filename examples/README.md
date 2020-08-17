@@ -26,6 +26,8 @@ bundled with [MoonGL](https://github.com/stetre/moongl).
 bundled with [MoonVulkan](https://github.com/stetre/moonvulkan).
 * A port of the solutions to the exercises from the [**Hands On Opencl**](http://handsonopencl.github.io/) course, 
 bundled with [MoonCL](https://github.com/stetre/mooncl).
+* A port of some of the examples from Matthew Scarpino's book [**OpenCL in Action**](https://www.manning.com/books/opencl-in-action),
+also bundled with [MoonCL](https://github.com/stetre/mooncl).
 * A port of the demos that come with Scott Lembcke's [**Chipmunk2D**](http://chipmunk-physics.net/) physics engine,
 bundled with [MoonChipmunk](https://github.com/stetre/moonchipmunk).
 * A port of the demos that come with Mitcha Mettke's [**Nuklear**](https://github.com/Immediate-Mode-UI/nuklear) GUI toolkit,
