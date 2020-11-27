@@ -6,9 +6,15 @@ They currently run
 [on GNU/Linux](#installing-on-gnulinux) and (most of them) [on Windows](#installing-on-windows) with MSYS2/MinGW-w64.
 A few of them also run [on MacOS](#installing-on-macos), thanks to contributions from other developers.
 
-The libraries do not depend on each other, so they can be selectively installed.
+The libraries do not depend on each other, so they can be selectively installed (they must, actually, since this repository is only a collector of links to the repos of the individual libraries).
+
+For bug reports, suggestions, etc., please open an issue in the repo of the relevant library.
+
+For general discussions on Lua and related topics you can join the [Lua Forum](https://luaforum.com/), a newly created forum intended as a welcoming place for beginners (I'm not the owner, but I'm active there with the username _stetre_).
 
 _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
+
+
 
 [![Lua logo](./powered-by-lua.gif)](https://www.lua.org/)
 
