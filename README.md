@@ -45,6 +45,8 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
   * [**MoonSndFile**](https://github.com/stetre/moonsndfile) ([doc](https://stetre.github.io/moonsndfile/doc/index.html)) - bindings to **libsndfile**.
   * [**MoonAL**](https://github.com/stetre/moonal) ([doc](https://stetre.github.io/moonal/doc/index.html)) - bindings to **OpenAL**.
   * [**LuaJACK**](https://github.com/stetre/luajack) ([doc](https://stetre.github.io/luajack/doc/index.html)) - bindings to **JACK** (JACK Audio Connection Kit).
+* **Other:**
+  * [**MoonTypes**](https://github.com/stetre/moontypes) ([doc](https://stetre.github.io/moontypes/doc/index.html)) - a **C-like typedef** for Lua.
 
 ---
 
