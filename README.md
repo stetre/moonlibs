@@ -47,6 +47,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
   * [**LuaJACK**](https://github.com/stetre/luajack) ([doc](https://stetre.github.io/luajack/doc/index.html)) - bindings to **JACK** (JACK Audio Connection Kit).
 * **Other:**
   * [**MoonTypes**](https://github.com/stetre/moontypes) ([doc](https://stetre.github.io/moontypes/doc/index.html)) - a **C-like typedef** for Lua.
+  * [**MoonUSB**](https://github.com/stetre/moonusb) ([doc](https://stetre.github.io/moonusb/doc/index.html)) - bindings to **libusb**.
 
 ---
 
