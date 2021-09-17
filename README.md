@@ -30,6 +30,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 * **Math and Physics:**
   * [**MoonGLMATH**](https://github.com/stetre/moonglmath) ([doc](https://stetre.github.io/moonglmath/doc/index.html)) - **graphics math** library for MoonGL and MoonVulkan.
   * [**MoonChipmunk**](https://github.com/stetre/moonchipmunk) ([doc](https://stetre.github.io/moonchipmunk/doc/index.html)) - bindings to the **Chipmunk2D** game dynamics library.
+  * [**MoonCCD**](https://github.com/stetre/moonccd) ([doc](https://stetre.github.io/moonccd/doc/index.html)) - bindings to the **libccd** collision detection library.
 * **Concurrency, State Machines:**
   * [**MoonTimers**](https://github.com/stetre/moontimers) ([doc](https://stetre.github.io/moontimers/doc/index.html)) - Concurrent **timers**.
   * [**MoonAgents**](https://github.com/stetre/moonagents) ([doc](https://stetre.github.io/moonagents/doc/index.html)) - SDL-oriented **reactive state machines**.
@@ -266,6 +267,7 @@ $ sudo apt install libfreetype6-dev   # needed only by MoonFreeType
 $ sudo apt install libsndfile1-dev    # needed only by MoonSndFile
 $ sudo apt install libopenal-dev      # needed only by MoonAL
 $ sudo apt install libjack-jackd2-dev # needed only by LuaJack
+$ sudo apt install libccd2-dev        # needed only by MoonCCD
 ```
 
 Windows (MSYS2/MinGW-w64):
