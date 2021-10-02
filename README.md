@@ -31,6 +31,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
   * [**MoonGLMATH**](https://github.com/stetre/moonglmath) ([doc](https://stetre.github.io/moonglmath/doc/index.html)) - **graphics math** library for MoonGL and MoonVulkan.
   * [**MoonChipmunk**](https://github.com/stetre/moonchipmunk) ([doc](https://stetre.github.io/moonchipmunk/doc/index.html)) - bindings to the **Chipmunk2D** game dynamics library.
   * [**MoonCCD**](https://github.com/stetre/moonccd) ([doc](https://stetre.github.io/moonccd/doc/index.html)) - bindings to the **libccd** collision detection library.
+  * [**MoonODE**](https://github.com/stetre/moonode) ([doc](https://stetre.github.io/moonode/doc/index.html)) - bindings to the **ODE** (Open Dynamics Engine) 3D physics library.
 * **Concurrency, State Machines:**
   * [**MoonTimers**](https://github.com/stetre/moontimers) ([doc](https://stetre.github.io/moontimers/doc/index.html)) - Concurrent **timers**.
   * [**MoonAgents**](https://github.com/stetre/moonagents) ([doc](https://stetre.github.io/moonagents/doc/index.html)) - SDL-oriented **reactive state machines**.
