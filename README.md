@@ -339,8 +339,8 @@ C:\msys32\home\ste\moonfltk\examples\fltk> lua valuators.lua
 
 #### Lua version
 
-All libraries currently assume Lua 5.3.
-It is possible to compile/install/uninstall for a different Lua version using the `LUAVER` variable.
+All libraries currently attempt to detect the version of the installed Lua interpreter. If the attempt fails, they assume Lua 5.3.
+It is possible to compile/install/uninstall explicitly for a given Lua version using the `LUAVER` variable.
 For example, to compile and install for Lua 5.4:
 
 ```bash
