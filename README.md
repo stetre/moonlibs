@@ -267,6 +267,7 @@ $ sudo apt install libassimp-dev      # needed only by MoonAssimp
 $ sudo apt install libfreetype6-dev   # needed only by MoonFreeType
 $ sudo apt install libsndfile1-dev    # needed only by MoonSndFile
 $ sudo apt install libopenal-dev      # needed only by MoonAL
+$ sudo apt install chipmunk-dev       # needed only by MoonChipmunk
 $ sudo apt install libjack-jackd2-dev # needed only by LuaJack
 $ sudo apt install libccd2-dev        # needed only by MoonCCD
 ```
@@ -282,6 +283,7 @@ $ pacman -S ${MINGW_PACKAGE_PREFIX}-assimp      # needed only by MoonAssimp
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-freetype    # needed only by MoonFreeType
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-libsndfile  # needed only by MoonSndFile
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-openal      # needed only by MoonAL
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-chipmunk    # needed only by MoonChipmunk
 ```
 
 MacOS:
