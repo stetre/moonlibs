@@ -10,8 +10,6 @@ The libraries do not depend on each other, so they can be selectively installed 
 
 For bug reports, suggestions, etc., please open an issue in the repo of the relevant library.
 
-For general discussions on Lua and related topics you can join the [Lua Forum](https://luaforum.com/), a newly created forum intended as a welcoming place for beginners (I'm not the owner, but I'm active there with the username _stetre_).
-
 _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
 
 
@@ -24,6 +22,7 @@ _Author:_ _[Stefano Trettel](https://www.linkedin.com/in/stetre)_
   * [**MoonVulkan**](https://github.com/stetre/moonvulkan) ([doc](https://stetre.github.io/moonvulkan/doc/index.html)) - bindings to **Vulkan**.
 * **Windowing, input handling, GUI:**
   * [**MoonGLFW**](https://github.com/stetre/moonglfw) ([doc](https://stetre.github.io/moonglfw/doc/index.html)) - bindings to **GLFW**.
+  * [**MoonSDL2**](https://github.com/stetre/moonsdl2) ([doc](https://stetre.github.io/moonsdl2/doc/index.html)) - bindings to **SDL2**.
   * [**MoonFLTK**](https://github.com/stetre/moonfltk) ([doc](https://stetre.github.io/moonfltk/doc/index.html)) - bindings to **FLTK** (Fast Light Toolkit).
   * [**MoonNuklear**](https://github.com/stetre/moonnuklear) ([doc](https://stetre.github.io/moonnuklear/doc/index.html)) - bindings to **Nuklear**.
   * _[MoonGLUT](https://github.com/stetre/moonglut) (discontinued) - bindings to FreeGLUT._
@@ -271,6 +270,10 @@ $ sudo apt install chipmunk-dev       # needed only by MoonChipmunk
 $ sudo apt install libode-dev         # needed only by MoonODE
 $ sudo apt install libjack-jackd2-dev # needed only by LuaJack
 $ sudo apt install libccd2-dev        # needed only by MoonCCD
+$ sudo apt install libsdl2-dev        # needed only by MoonSDL2
+$ sudo apt install libsdl2-image-dev  # needed only by MoonSDL2
+$ sudo apt install libsdl2-mixer-dev  # needed only by MoonSDL2
+$ sudo apt install libsdl2-ttf-dev    # needed only by MoonSDL2
 ```
 
 Windows (MSYS2/MinGW-w64):
@@ -286,6 +289,10 @@ $ pacman -S ${MINGW_PACKAGE_PREFIX}-libsndfile  # needed only by MoonSndFile
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-openal      # needed only by MoonAL
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-chipmunk    # needed only by MoonChipmunk
 $ pacman -S ${MINGW_PACKAGE_PREFIX}-ode         # needed only by MoonODE
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-SDL2        # needed only by MoonSDL2
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-SDL2_image  # needed only by MoonSDL2
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-SDL2_mixer  # needed only by MoonSDL2
+$ pacman -S ${MINGW_PACKAGE_PREFIX}-SDL2_ttf    # needed only by MoonSDL2
 ```
 
 MacOS:
